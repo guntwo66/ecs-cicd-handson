@@ -1,0 +1,20 @@
+# Terraformのローカル状態・作業ファイル
+**/.terraform/*
+*.tfstate
+*.tfstate.*
+*.tfplan
+crash.log
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# 秘密情報を含む可能性のあるファイル
+*.tfvars
+*.tfvars.json
+.env
+.env.*
+
+# OS・エディタ
+.DS_Store
+.vscode/
